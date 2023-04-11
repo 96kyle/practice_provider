@@ -6,6 +6,8 @@ void main() {
 
 class MyApp extends StatelessWidget {
   static const String apiKey = '35252766-0441f9b171775eb8bc234ee25';
+
+  static const String url = 'https://pixabay.com/api/';
   const MyApp({super.key});
 
   @override
