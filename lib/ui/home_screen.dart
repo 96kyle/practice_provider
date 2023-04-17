@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart%20';
-import 'package:image_search/data/api.dart';
+import 'package:image_search/data/pixabay_api.dart';
 import 'package:image_search/data/photo_provider.dart';
 import 'package:image_search/models/photoModel.dart';
 import 'package:image_search/ui/widgets/photo_widget.dart';
