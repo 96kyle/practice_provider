@@ -11,7 +11,7 @@ class PhotoModel {
   final int webformatHeight;
   final String largeImageURL;
   final String? fullHDURL;
-  final String imageURL;
+  final String? imageURL;
   final int imageWidth;
   final int imageHeight;
   final int imageSize;
@@ -36,7 +36,7 @@ class PhotoModel {
     required this.webformatHeight,
     required this.largeImageURL,
     this.fullHDURL,
-    required this.imageURL,
+    this.imageURL,
     required this.imageWidth,
     required this.imageHeight,
     required this.imageSize,
